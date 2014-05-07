@@ -1,0 +1,37 @@
+app/code/community/Ebizmarts/AbandonedCart                          app/code/community/Ebizmarts/AbandonedCart
+app/code/community/Ebizmarts/Autoresponder                          app/code/community/Ebizmarts/Autoresponder
+app/code/community/Ebizmarts/MageMonkey                             app/code/community/Ebizmarts/MageMonkey
+app/code/community/Ebizmarts/Mandrill                               app/code/community/Ebizmarts/Mandrill
+
+
+app/design/adminhtml/default/default/layout/ebizmarts               app/design/adminhtml/default/default/layout/ebizmarts
+app/design/adminhtml/default/default/layout/magemonkey.xml          app/design/adminhtml/default/default/layout/magemonkey.xml
+app/design/adminhtml/default/default/layout/mandrill.xml            app/design/adminhtml/default/default/layout/mandrill.xml
+app/design/adminhtml/default/default/template/ebizmarts             app/design/adminhtml/default/default/template/ebizmarts
+app/design/adminhtml/default/default/template/magemonkey            app/design/adminhtml/default/default/template/magemonkey
+app/design/adminhtml/default/default/template/mandrill              app/design/adminhtml/default/default/template/mandrill
+
+app/design/frontend/base/default/layout/ebizmarts                   app/design/frontend/base/default/layout/ebizmarts
+app/design/frontend/base/default/layout/magemonkey.xml              app/design/frontend/base/default/layout/magemonkey.xml
+app/design/frontend/base/default/template/ebizmarts                 app/design/frontend/base/default/template/ebizmarts
+app/design/frontend/base/default/template/ebizmarts_abandonedcart   app/design/frontend/base/default/template/ebizmarts_abandonedcart
+app/design/frontend/base/default/template/magemonkey                app/design/frontend/base/default/template/magemonkey
+
+app/etc/modules/Ebizmarts_AbandonedCart.xml                         app/etc/modules/Ebizmarts_AbandonedCart.xml
+app/etc/modules/Ebizmarts_Autoresponder.xml                         app/etc/modules/Ebizmarts_Autoresponder.xml
+app/etc/modules/Ebizmarts_MageMonkey.xml                            app/etc/modules/Ebizmarts_MageMonkey.xml
+app/etc/modules/Ebizmarts_Mandrill.xml                              app/etc/modules/Ebizmarts_Mandrill.xml
+
+app/locale/en_US/*.csv                                              app/locale/en_US/
+app/locale/en_US/template/email/ebizmarts/autoresponder/*.html      app/locale/en_US/template/email/ebizmarts/autoresponder/
+app/locale/en_US/template/email/sales/abandoned_cart.html           app/locale/en_US/template/email/sales/abandoned_cart.html
+
+js/ebizmarts/autoresponders                                         js/ebizmarts/autoresponders
+
+lib/Mandrill/API.php                                                lib/Mandrill/API.php
+
+skin/adminhtml/default/default/abandonedcart                        skin/adminhtml/default/default/abandonedcart
+skin/adminhtml/default/default/ebizmarts                            skin/adminhtml/default/default/ebizmarts
+skin/adminhtml/default/default/magemonkey                           skin/adminhtml/default/default/magemonkey
+skin/adminhtml/default/default/mandrill                             skin/adminhtml/default/default/mandrill
+skin/frontend/base/default/magemonkey                               skin/frontend/base/default/magemonkey
